@@ -5,8 +5,10 @@
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75812403/104663021-fd1bc880-56c3-11eb-98b0-2fc932040081.png" alt="logo"/></p>
-
-
+<P align="center">
+  Your security HAT us</p>
+  
+  
 A idea da criação deste site foi com base o tema de trabalho que temos para a cadeira de Gestão de Recursos Humanos, em que consistia em criar uma empresa fictícia
 no nosso caso a empresa "HAT Technologies", e apresentá-la.
 
