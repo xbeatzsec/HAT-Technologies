@@ -1,7 +1,7 @@
 # Trabalho Prático
 
 
-## HAT?
+## HAT? 🤔
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75812403/104663021-fd1bc880-56c3-11eb-98b0-2fc932040081.png" alt="logo"/></p>
