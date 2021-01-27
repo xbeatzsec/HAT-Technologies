@@ -1,5 +1,6 @@
 # Trabalho Prático
 
+<h1 align="center"> <img src="https://github.com/tusharnankani/tusharnankani/blob/master/Assets/hello.gif" alt="hello-gif"> <br >Seja Bem Vindo ao repositorio do nosso projeto!</h1>
 
 ## HAT? 🤔
 
