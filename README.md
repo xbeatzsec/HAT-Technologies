@@ -29,3 +29,11 @@ Este desafio foi com base na nossa área, costumamos de jogar CTF's (Capture The
 
 
 ## Mockups
+
+Nos prints abaixo o professor pode ver os os mockups que usamos fizemos para desenvolver o nosso site
+
+### Página Principal
+
+![Screenshot from 2021-02-09 02-00-21](https://user-images.githubusercontent.com/75812403/107305347-b929a280-6a7a-11eb-9766-7afb2847b56e.png)
+![Screenshot from 2021-02-09 02-02-30](https://user-images.githubusercontent.com/75812403/107305441-e9714100-6a7a-11eb-8c82-ba9aed17ea3a.png)
+![Screenshot from 2021-02-09 02-02-44](https://user-images.githubusercontent.com/75812403/107305462-f2faa900-6a7a-11eb-980d-dc2a115a6b5a.png)
