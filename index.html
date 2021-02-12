@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    ###########################################################
+    #                                                         #
+    #    Bem-vindo á source code professor! :D                #
+    #                                                         #
+    #                                                         #
+    #                 Fácil não é?   (se fez o desafio)       #
+    #                                                         #
+    #                                                         #
+    #                                                         #
+    ###########################################################
+     -->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HAT Technologies</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+
+  <!-- Fontes do google -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Ficheiros CSS / bootstrap etc.. -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Import de um script para animações -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Ficheiro CSS da página -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- Import do script para animações -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <div class="rt-container">
+    <div class="col-rt-12">
+      <div class="Scriptcontent">
+
+        <!-- Formulário Login popup -->
+        <input id="modal-toggle" type="checkbox">
+        <label class="modal-backdrop" for="modal-toggle"></label>
+        <div class="modal-content">
+          <label class="modal-close-btn" for="modal-toggle">
+            <svg width="30" height="30">
+              <line x1="5" y1="5" x2="20" y2="20" />
+              <line x1="20" y1="5" x2="5" y2="20" />
+            </svg>
+          </label>
+          <div class="tabs">
+            <!--  LOG IN FORMULÁRIO  -->
+            <input class="radio" id="tab-1" name="tabs-name" type="radio" checked>
+            <label for="tab-1" class="table"><span>Login</span></label>
+            <div class="tabs-content">
+              <form action="">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" value="Log In">
+              </form>
+              <form class="forgot-password" action="">
+                <input id="forgot-password-toggle" type="checkbox">
+                <label for="forgot-password-toggle">Forgot password?</label>
+                <div class="forgot-password-content">
+                  <input type="email" placeholder="Enter your email" required>
+                  <input type="submit" value="Go">
+                </div>
+              </form>
+            </div>
+            <!--  SIGN UP FORMULÁRIO  -->
+            <input class="radio" id="tab-2" name="tabs-name" type="radio">
+            <label for="tab-2" class="table"><span>Sign up</span></label>
+            <div class="tabs-content">
+              <form action="">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm password" required>
+                <input type="submit" value="Sign Up">
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Header-->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <a href="#principal" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+
+        <ul>
+          <li class="active"><a href="#principal">Home</a></li>
+
+          <li> <a href="#about">About us</a></li>
+
+          <li><a href="#services">Services</a></li>
+          <li><a href="#carrers">Carrers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+      <label class="get-started-btn ml-auto" for="modal-toggle">Log in</label>
+
+    </div>
+  </header>
+
+  <!-- Landing Page! -->
+  <section id="principal">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/img_principal.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 id="h1_p" class="animate__animated animate__fadeInDown">Welcome to <span>HAT</span></h2>
+              <p class="animate__animated animate__fadeInUp">Your Security HAT us. <br>
+                All your assets are safe with us.
+              </p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/img_principal2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Your security is our security</h2>
+              <p class="animate__animated animate__fadeInUp">We are your Information Security partner. <br>
+                Our team will work hard for all your needs.
+              </p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/img_principal3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Top Security Services</h2>
+              <p class="animate__animated animate__fadeInUp">We find your weaknesses,
+                before the hackers do.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon icofont-simple-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon icofont-simple-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- About US -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-offset="120" data-aos-delay="100"
+            data-aos-duration="3000">
+            <h2>About us</h2>
+            <h3>HAT technologies is your security</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-offset="120" data-aos-delay="100"
+            data-aos-duration="3000">
+            <p>
+              Our company was found in 2019, we are new in the market, but we have something that no others have. <br>
+              Our passion, our dedication and our profissionalism together makes the best and hight quality services.
+              <br>
+              And we count on:
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Inovation - We are always evolving and try to get updated in
+                terms of knowledge and technologies.</li>
+              <li><i class="ri-check-double-line"></i>Costumer Focus - Is very important to listen up the ideas of our
+                costumers.</li>
+              <li><i class="ri-check-double-line"></i>Excellence - Work as a team by helping each other and asking for
+                help.</li>
+              <li><i class="ri-check-double-line"></i>Ethic - Being fair, honest and ethical is one the basic human
+                needs. Every employee desires to be such himself and to work for an organization that is fair and
+                ethical in its practices.</li>
+            </ul>
+            <p class="font-italic">
+              With our evolution on the market, and progression we get very prestigious costumers and partners.
+              Down below are identified some of them.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Clientes / Parceiros -->
+    <section id="clients" class="clients section-bg" data-aos="fade-in" data-aos-offset="120" data-aos-delay="100">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up" data-aos-offset="120" data-aos-delay="100" data-aos-duration="3000">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/Logo_Multicert.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/edp.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/piaget_logo.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/microsoft_logo.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/google_logo.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/tesla_logo.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/netflix_logo.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/mercedes_logo.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/github_logo.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/amazon_logo.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/fortinet.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/apple.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-right" data-aos-offset="120" data-aos-delay="100"
+          data-aos-duration="3000">
+          <h2>Service</h2>
+          <p>Our Services For You</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="flip-left" data-aos-offset="120" data-aos-delay="100"
+              data-aos-duration="2000">
+              <i class="icofont-brainstorming"></i>
+              <h4><a href="#">AI Services</a></h4>
+              <p>AI technologies like machine learning and natural language processing enable analysts to respond to
+                threats with greater confidence and speed.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="flip-left" data-aos-offset="120" data-aos-delay="100"
+              data-aos-duration="2000">
+              <i class="icofont-cloudapp"></i>
+              <h4><a href="">Cloud Security</a></h4>
+              <p>End-to-end security services to protect your cloud environments. Detecting security issues in the cloud
+                & SaaS apps you use most.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="flip-left" data-aos-offset="120" data-aos-delay="100"
+              data-aos-duration="2000">
+              <i class="icofont-computer"></i>
+              <h4><a href="#">Endpoint Security</a></h4>
+              <p>Next-Generation Endpoint Protection.Enhanced with Human Risk Analytics. <br>
+                Helps identify user actions and behaviors that pose a security risk to the organization.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="flip-left" data-aos-offset="120" data-aos-delay="100"
+              data-aos-duration="2000">
+              <i class="icofont-settings"></i>
+              <h4><a href="#">Log Management</a></h4>
+              <p>A scalable solution for collecting, analyzing, storing and reporting on large volumes of network and
+                security event logs. </p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="flip-left" data-aos-offset="120" data-aos-delay="100"
+              data-aos-duration="2000">
+              <i class="icofont-home"></i>
+              <h4><a href="#">IoT Security</a></h4>
+              <p>HAT IoT Security Platform’s self-improving design supports the rapid adoption of
+                Internet-connected devices on new or existing infrastructures. It protects the whole networking
+                ecosystem against cyber attacks, malware, and spying attempts.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="flip-left" data-aos-offset="120" data-aos-delay="100"
+              data-aos-duration="2000">
+              <i class="icofont-world"></i>
+              <h4><a href="#">Advanced Threat Intelligence</a></h4>
+              <p>Contextual, Real-Time Insights into the Global Threat Landscape. <br> Fueled by the HAT Technologies
+                Global
+                Protective Network (HTPN) protecting over 500 million systems,
+                HAT Advanced Threat Intelligence collects data from sensors across the globe.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Carrer -->
+    <div class="container" id="carrers">
+
+      <div class="section-title" data-aos="fade-right" data-aos-offset="120" data-aos-delay="100"
+        data-aos-duration="2000">
+        <h2>Carrers</h2>
+        <p>We are hiring</p>
+      </div>
+    </div>
+    <section id="principal">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class=" carousel-item active" style="background-image: url(assets/img/carrer.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 id="h1_p" class="animate__animated animate__fadeInDown">Let's discuss how our security expertise
+                  <br>
+                  can bring you value and accelerate growth.
+                </h2>
+                <a href="contact.html" target="_blank"
+                  class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact
+                  Us</a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+  </main>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>HAT Technologies</h3>
+              <p>
+                Lagoas Park, Edifício 3, Piso 3<br>
+                2740-266 Porto Salvo – Oeiras<br>
+                Portugal<br>
+                <strong>Phone:</strong> 213567689<br>
+                <strong>Email:</strong> info@hat.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#principal">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#carrers">Carrers</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe for more content and information about our company</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>HAT Technologies</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- scripts js / imports -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- script em js -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
