@@ -17,15 +17,6 @@ A ideia do HAT surgiu pelas iniciais de cada um dos nossos nomes (H – Hernani,
 
 -----------------------------------------------------------
 
-## Um challenge fácil para o professor! 🧠🔑
-
-Pensámos em fazer um desafiozinho para si professor!</br>
-Em que consiste em tentar descubrir a source code através do browser.</br>
-(É BATOTA VER A SOURCE CODE DIRETAMENTE PELOS REPOSITÓRIOS).
-
-Este desafio foi com base na nossa área, costumamos de jogar CTF's (Capture The Flags) e por isso decidimos fazer um para si. :)
-
-----------------------------------------------------------
 
 
 ## Mockups
