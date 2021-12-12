@@ -10,10 +10,11 @@
   Your security HAT us</p>
   
   
-A idea da criação deste site foi com base o tema de trabalho que temos para a cadeira de Gestão de Recursos Humanos, em que consistia em criar uma empresa fictícia
-no nosso caso a empresa "HAT Technologies", e apresentá-la.
+The idea of creating this site was based on the theme of the work we have for the subject Human Resource Management, which consisted of creating a fictitious company
+in our case the company "HAT Technologies", and present it.
 
-A ideia do HAT surgiu pelas iniciais de cada um dos nossos nomes (H – Hernani, A - Alex, T – Tiago), fazendo também um paralelismo com as definições dos “tipos de chapéu" que cada tipo de hacker representa na cibersegurança. Embora os Gray Hats sejam definidos enquanto, e transcrevendo da wikipédia, “especialista em segurança de computador que às vezes pode violar leis ou padrões éticos típicos, mas não tem a intenção maliciosa típica de um hacker de chapéu preto”, no nosso entender, queremos substituir a ideia de “...violar leis ou padrões éticos...” para profissionais pró-ativos, trabalhando não só para o pedido do cliente, mas para a sua segurança tecnológica, alinhando assim a balança entre desafio e da segurança. 
+The idea of HAT came from the initials of each of our names (H - Hernani, A - Alex, T - Tiago), also making a parallel with the definitions of the "types of hats" that each type of hacker represents in cybersecurity. Although Gray Hats are defined as, and transcribing from wikipedia, "computer security specialist who may sometimes violate laws or typical ethical standards, but does not have the malicious intent typical of a black hat hacker", in our view, we want to replace the idea of "...violating laws or ethical standards..." to proactive professionals, working not only for the client's request, but for their technological security, thus aligning the scales between challenge and of security. 
+
 
 -----------------------------------------------------------
 
@@ -21,7 +22,7 @@ A ideia do HAT surgiu pelas iniciais de cada um dos nossos nomes (H – Hernani,
 
 ## Mockups
 
-Nos prints abaixo o professor pode ver os os mockups que usamos fizemos para desenvolver o nosso site
+
 
 ### Página Principal
 
