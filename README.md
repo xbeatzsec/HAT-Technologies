@@ -24,7 +24,7 @@ The idea of HAT came from the initials of each of our names (H - Hernani, A - Al
 
 
 
-### Página Principal
+### Landing Page
 
 ![Screenshot from 2021-02-09 02-00-21](https://user-images.githubusercontent.com/75812403/107305347-b929a280-6a7a-11eb-9766-7afb2847b56e.png)
 ![Screenshot from 2021-02-09 02-02-30](https://user-images.githubusercontent.com/75812403/107305441-e9714100-6a7a-11eb-8c82-ba9aed17ea3a.png)
